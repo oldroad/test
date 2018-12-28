@@ -10,7 +10,6 @@ pipeline {
         }
         stage('Test'){
             steps {
-                sh 'make check'
                 echo '测试'
             }
         }
